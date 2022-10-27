@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body, #fullheight {
+    min-height: 856px !important;
+    height: 856px;
+    font-family: 'Poppins', sans-serif;
+}
+.container {
+    height: 100%;
+    padding: 20px;
+    background-color: #17181A;
+}
+
+.resultado {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    color: #D4D4D2;
+    height: 50%;
+}
+
+.resultado span {
+    margin: 10px 10px 50px 10px;
+    font-size: 58px;
+    justify-self: center;
+}
+
+.botoes {
+    display: grid;
+    width: 100%;
+    height: 50%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    color: #D4D4D2;
+    border-radius: 100%;
+    border: none;
+    width: 75px;
+    height: 75px;
+    cursor: pointer;
+    align-self: center;
+    justify-self: center;
+}
+
+.item1 {
+    background-color: #D4D4D2;
+    color: #1C1C1C;
+}
+
+.item3 {
+    background-color: #FF9500;
+}
+
+.porcento {
+    background-color: #D4D4D2;
+    color: #1C1C1C;
+}
+
+.numero, .virgula {
+    background-color: #505050;
+}
+
+.itemZero {
+    grid-column: span 2;
+    width: 165px;
+    border-radius: 30px;
+}
