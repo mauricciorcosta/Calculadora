@@ -6,13 +6,16 @@
 }
 
 html, body, #fullheight {
-    min-height: 856px !important;
-    height: 856px;
+    min-height: 100% !important;
+    height: 100%;
     font-family: 'Poppins', sans-serif;
+    background-color: #17181A;
 }
 .container {
-    height: 100%;
+    width: 350px;
+    height: 600px;
     padding: 20px;
+    margin: auto;
     background-color: #17181A;
 }
 
@@ -21,19 +24,20 @@ html, body, #fullheight {
     justify-content: flex-end;
     align-items: flex-end;
     color: #D4D4D2;
-    height: 50%;
+    height: 20%;
 }
 
 .resultado span {
-    margin: 10px 10px 50px 10px;
+    margin: 0 auto;
     font-size: 58px;
     justify-self: center;
 }
 
 .botoes {
     display: grid;
-    width: 100%;
-    height: 50%;
+    width: 350px;
+    height: 80%;
+    margin: 0 auto;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
